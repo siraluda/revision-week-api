@@ -1,0 +1,6 @@
+@RevisionWeekAPI_HostAddress = http://localhost:5188
+
+GET {{RevisionWeekAPI_HostAddress}}/
+Accept: application/json
+
+###

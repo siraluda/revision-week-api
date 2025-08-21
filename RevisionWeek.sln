@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisionWeek.Host", "RevisionWeek.Host\RevisionWeek.Host.csproj", "{BF0D7CDB-486D-4E56-9F3F-204B58EE41BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisionWeek.API", "RevisionWeek.API\RevisionWeek.API.csproj", "{E0097B8C-7556-400E-B59D-5F2968EFDEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisionWeek.ServiceDefaults", "RevisionWeek.ServiceDefaults\RevisionWeek.ServiceDefaults.csproj", "{8CD0F27A-A30C-43E2-9C40-10156B1680F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0D7CDB-486D-4E56-9F3F-204B58EE41BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0D7CDB-486D-4E56-9F3F-204B58EE41BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0D7CDB-486D-4E56-9F3F-204B58EE41BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0D7CDB-486D-4E56-9F3F-204B58EE41BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0097B8C-7556-400E-B59D-5F2968EFDEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0097B8C-7556-400E-B59D-5F2968EFDEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0097B8C-7556-400E-B59D-5F2968EFDEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0097B8C-7556-400E-B59D-5F2968EFDEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD0F27A-A30C-43E2-9C40-10156B1680F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD0F27A-A30C-43E2-9C40-10156B1680F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD0F27A-A30C-43E2-9C40-10156B1680F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD0F27A-A30C-43E2-9C40-10156B1680F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
