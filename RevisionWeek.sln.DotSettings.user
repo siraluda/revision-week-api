@@ -1,2 +1,15 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AExecutionTimer_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003Fabdul_002Dwaris_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F85d851c0999e47c98ebf2edc8a9a22d4444d0_003F3a_003F4f74324a_003FExecutionTimer_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AHttpResponseMessage_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003Fabdul_002Dwaris_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003F85e97f467d698c9e98eae9e3a1b39d58541173e57992d8f7111eabdd3db3526_003FHttpResponseMessage_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/usr/local/share/dotnet/packs/Microsoft.AspNetCore.App.Ref/9.0.1/ref/net9.0/Microsoft.AspNetCore.Components.Endpoints.dll" /&gt;
+  &lt;Assembly Path="/usr/local/share/dotnet/packs/Microsoft.AspNetCore.App.Ref/9.0.1/ref/net9.0/Microsoft.AspNetCore.Http.Abstractions.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e72da746_002Dd7ae_002D46b7_002Dad1e_002Df278744ba3d4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DocumentsEndpointTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::F2CF4FEC-FE25-4805-9D7C-8743A624E1E1::net9.0::RevisionWeek.Tests.DocumentsEndpointTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::F2CF4FEC-FE25-4805-9D7C-8743A624E1E1::net9.0::RevisionWeek.Tests.DomainTests.DocumentsDomainTests.initialize_document_with_correct_params_should_create_document_object&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::F2CF4FEC-FE25-4805-9D7C-8743A624E1E1::net9.0::RevisionWeek.Tests.DomainTests.DocumentsDomainTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=revisionweek/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

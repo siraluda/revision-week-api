@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "asd-2323-adaaf",
+      "fileName": "Document Name",
+      "contentType": "pdf",
+      "key": "document-key",
+      "createdAt": "2025-08-22T14:07:22.394846Z"
+    },
+    {
+      "id": "asd-2323-adaaf",
+      "fileName": "Document Name 2",
+      "contentType": "pdf",
+      "key": "document-key-2",
+      "createdAt": "2025-08-22T14:07:22.39488Z"
+    }
+  ]
+}

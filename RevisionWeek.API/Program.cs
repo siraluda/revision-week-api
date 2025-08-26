@@ -1,3 +1,10 @@
+using System.Runtime.CompilerServices;
+using RevisionWeek.API;
+using RevisionWeek.API.Extensions;
+
+// Allow the test project to access internal Program and other internals (For Testing)
+[assembly: InternalsVisibleTo("RevisionWeek.Tests")]
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +18,10 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+// Enpoint Mappings
+app.RegisterDocumentsEndpoints();
+
 
 app.UseHttpsRedirection();
 
@@ -33,9 +44,22 @@ app.MapGet("/", () =>
     })
     .WithName("GetWeatherForecast");
 
+app.MapGet("/weather", () =>  new WeatherForecast
+    (
+        DateOnly.FromDateTime(DateTime.Now.AddDays(1)),
+        Random.Shared.Next(-20, 55),
+        Summary: summaries[0]
+    ))
+    .WithName("GetSingleWeatherForecast");
+
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+namespace RevisionWeek.API
 {
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+    {
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+    public partial class Program { }
 }
